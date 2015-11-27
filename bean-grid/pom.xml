@@ -22,6 +22,31 @@
 		<Vaadin-Addon>${project.artifactId}-${project.version}.jar</Vaadin-Addon>
 	</properties>
 
+	<organization>
+		<name>Teemu Suo-Anttila</name>
+		<url>https://github.com/tsuoanttila/bean-grid/</url>
+	</organization>
+
+	<scm>
+		<url>git://github.com/tsuoanttila/bean-grid.git</url>
+		<connection>scm:git:git://github.com/tsuoanttila/bean-grid.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:/tsuoanttila/bean-grid.git</developerConnection>
+		<tag>Bean Grid Add-on for Vaadin</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/tsuoanttila/bean-grid/issues</url>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.vaadin</groupId>
